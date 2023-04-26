@@ -48,8 +48,8 @@ namespace RollOff_Test4API
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(x => {
                 x.TokenValidationParameters = new TokenValidationParameters
                 {
-                    ValidateIssuer = true, //localhost               
-                    ValidateAudience = true,
+                    ValidateIssuer = true, //localhostï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = "localhost",
